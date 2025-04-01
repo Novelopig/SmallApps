@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins", serif;
+}
+
+.slider img{
+  max-width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.CounterLike h3{
+  font-size: 100px;
+}
+
+.CountdownTimer .count{
+  font-size: 100px;
+}
+
+.TemperatureConverter h4{
+  font-size: 40px;
+}
+
+.calculator {
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.calculator form input {
+  border: none;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  background-color: rgb(185, 185, 228);
+  margin: 2px;
+  border-radius: 10px;
+  color: #1f1f1f;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.calculator form input[type="button"]:hover {
+  background-color: rgb(50, 50, 50);
+  color: #fff;
+}
+
+.calculator form .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 15px 0px;
+}
+
+.calculator form .display input {
+  text-align: right;
+  flex: 1;
+  font-size: 40px;
+  padding: 5px 10px;
+  background-color: rgb(50, 50, 50);
+  color: #fff;
+}
+
+.calculator form input.equal {
+  width: 123px;
+}
